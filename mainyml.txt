@@ -1,6 +1,6 @@
 name: CI
 
-on: workflow_dispatch 
+on: workflow_dispatch
 
 jobs:
 
@@ -57,3 +57,4 @@ jobs:
     - name: All Done! You can close Tab now! Maximum VM time:6h.
 
       run: cmd /c loop.bat
+      
